@@ -17,3 +17,24 @@ This repository contains the R script and instructions for performing the data a
 2. Run the `run_analysis.R` script.
 3. The output will be a file called `tidydata.txt` containing the cleaned dataset.
 
+
+
+# Code Book
+
+This code book describes the variables in the tidy dataset.
+
+## Variables
+
+- `subject`: ID of the subject who performed the activity.
+- `activity`: The type of activity performed.
+- `tBodyAcc-mean()-X`: Mean of the body acceleration signal in the X direction.
+- `tBodyAcc-std()-X`: Standard deviation of the body acceleration signal in the X direction.
+- (Include descriptions for other variables in your dataset)
+
+## Transformations
+
+1. Merged the training and test datasets.
+2. Extracted mean and standard deviation measurements.
+3. Applied descriptive activity names.
+4. Appropriately labeled the dataset with descriptive variable names.
+5. Created a second tidy dataset with the average of each variable for each activity and subject.
